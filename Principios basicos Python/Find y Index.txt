@@ -1,0 +1,16 @@
+Find y Index
+
+Teniendo una variable ejecutamos
+
+$NombreVariable.find('#a',#num)
+    Busca el carácter o la palabra #a y te devuelve su numero de posicion en la variable
+    Si escribimos un #num empezará a buscar desde esa posicion
+    Si el valor es -1, el carácter #a no existe en esa variable
+
+$NombreVariable.index('#a')
+    Busca el carácter o palabra #a y te devuelve su numero de posicion en la variable.
+    Si no lo encuentra devolverá un mensaje de error.
+    
+
+
+
