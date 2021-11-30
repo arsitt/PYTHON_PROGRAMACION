@@ -1,0 +1,21 @@
+Atributos de variables
+
+$NombreVariable.upper() 
+    Todos los carácteres se convierten a mayúsculas
+
+$NombreVariable.capitalize()
+
+$NombreVariable.replace('#a','#b')
+    El cáracter o serie de carácteres que se escribe en #a se reemplaza por el cáracter de #b
+
+$NombreVariable.strip()
+    Los espacios encontrados al principio y al final de la variable se recortan
+
+$NombreVariable.split()
+    Separa las palabras de la variable que se encuentren con comas
+
+$NombreVariable = '#a'.join($OtraVariable)
+    Junta la $OtraVariable con #a, sea lo que sea. El contenido de esta unión se guarda en $NombreVariable
+
+
+
