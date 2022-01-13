@@ -13,11 +13,11 @@ def decorador(funcion):
     return envoltura
 
 @decorador
-def sumar(i):
-    sumando = sum(i)
+def sumar(*args):
+    sumando = sum(*args)
     return sumando
 
-print(sumar("1,2,3"))
+print(sumar(1,2,3))
 
 
 
