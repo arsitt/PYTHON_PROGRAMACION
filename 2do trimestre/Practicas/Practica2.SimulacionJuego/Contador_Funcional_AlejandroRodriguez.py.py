@@ -9,8 +9,8 @@ ronda = 0
 
 while user1 or user2 != 100:
     ronda += 1
-    tirada1 = randint(1,10)
-    tirada2 = randint(1,10)
+    tirada1 = randint(0,13)
+    tirada2 = randint(0,13)
     user1 += tirada1
     user2 += tirada2
     print(f"Ronda {ronda}")

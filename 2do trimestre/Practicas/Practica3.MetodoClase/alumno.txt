@@ -1,0 +1,3 @@
+alumno,boletin1,boletin2,boletin3,boletin4
+paco,10,6,4,9
+manuel,8,9,1,7
